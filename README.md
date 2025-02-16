@@ -35,8 +35,8 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ---
 
-## Step 1: Setup PostgreSQL Database
-### Create Database & Tables
+Step 1: Setup PostgreSQL Database
+Create Database & Tables
 Run the following SQL commands to **set up the required tables:
 ```sql
 CREATE DATABASE portfolio_db;
@@ -77,7 +77,7 @@ CREATE TABLE optimal_weights (
 );
 ```
 
-### **🔄 Populate the Tables with Asset Data**
+Populate the Tables with Asset Data
 ```sql
 INSERT INTO asset_metadata (asset, company_name, industry) VALUES
 ('AAPL', 'Apple', 'Technology'),
@@ -94,8 +94,8 @@ INSERT INTO asset_metadata (asset, company_name, industry) VALUES
 
 ---
 
-## **📌 Step 2: Run the Python Script**
-### **💻 Install Dependencies**
+Step 2: Run the Python Script**
+Install Dependencies**
 Run the following command to install necessary packages:
 ```bash
 pip install -r requirements.txt
