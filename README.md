@@ -1,6 +1,6 @@
-# Portfolio Optimization & ESG Analysis**
+# Portfolio Optimization & ESG Analysis
 
-## **Project Overview**
+## Project Overview
 This project builds a **dynamic portfolio optimization model** that allows users to:
 - **Select stocks dynamically** from a **diversified asset pool**.
 - **Optimize portfolio weights** based on expected return & risk (volatility).
@@ -10,7 +10,7 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ---
 
-## Technologies Used**
+## Technologies Used
 - **Python** (Data Collection, Portfolio Optimization, SQL Integration)
 - **PostgreSQL** (Data Storage, SQL Queries, Views)
 - **Power BI** (Visualization, Dynamic Dashboards)
@@ -21,7 +21,7 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ---
 
-##Project Structure**
+##Project Structure
 ```
 📁 Portfolio-Optimization-ESG
 │── 📄 README.md  # Documentation
@@ -35,9 +35,9 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ---
 
-## **📌 Step 1: Setup PostgreSQL Database**
-### **📥 Create Database & Tables**
-Run the following SQL commands to **set up the required tables**:
+## Step 1: Setup PostgreSQL Database
+### Create Database & Tables
+Run the following SQL commands to **set up the required tables:
 ```sql
 CREATE DATABASE portfolio_db;
 
