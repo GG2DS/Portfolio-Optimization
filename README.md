@@ -35,7 +35,7 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ---
 
-## ** Step 1: Setup PostgreSQL Database **
+## Step 1: Setup PostgreSQL Database
 Create Database & Tables
 Run the following SQL commands to **set up the required tables:
 ```sql
@@ -94,14 +94,14 @@ INSERT INTO asset_metadata (asset, company_name, industry) VALUES
 
 ---
 
-## ** Step 2: Run the Python Script**
+## Step 2: Run the Python Script
 Install Dependencies**
 Run the following command to install necessary packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### **🚀 Execute the Script**
+###  Execute the Script
 ```bash
 python portfolio_analysis.py
 ```
@@ -114,40 +114,40 @@ This script will:
 
 ---
 
-## ** Step 3: Power BI Dashboard**
+## Step 3: Power BI Dashboard
 After running the script, **import the SQL tables into Power BI** and create an interactive dashboard:
 
-### **🔹 Key Visuals in Power BI**
+### Key Visuals in Power BI
 1️ **Scatter Plot of Efficient Frontier** *(Risk vs. Return)*
 2️ **Pie Chart of Portfolio Weights** *(Asset Allocation)*
 3️ **KPI Cards for Expected Return, Volatility, & ESG Score**
 4️ **Slicer for Selecting Portfolio Assets**
 5️ **Dynamic ESG Tooltip for Selected Assets**
 
-### ** Import Data into Power BI**
+### Import Data into Power BI
 - Click **Get Data** → **PostgreSQL Database**
 - Enter **Server: localhost**, **Database: portfolio_db**
 - Load tables: `simulated_portfolios`, `efficient_frontier`, `optimal_weights`, `asset_metadata`
 
 ---
 
-## ** How to Interpret the Portfolio Volatility & ESG Score?**
+##  How to Interpret the Portfolio Volatility & ESG Score?
 
-### ** Understanding Expected Volatility**
-- A **portfolio volatility of 0.15 (15%)** means returns fluctuate **±15% annually**.
+###  Understanding Expected Volatilit
+- A **portfolio volatility of 0.15 (15%)** means returns fluctuate **±15% annually.
 - Compare to benchmarks:
   - **S&P 500** volatility: ~18%
   - **Bond portfolios**: ~5%
   - **Tech stocks**: ~25%-30%
 
-### ** Understanding ESG Score**
+### *Understanding ESG Score
 - **Lower ESG score (0-20):** Negligible risk 🌱
 - **Medium ESG score (20-40):** Moderate risk ⚠️
 - **High ESG score (40+):** Significant risk 🔴
 
 ---
 
-## **🌍 Future Enhancements**
+## Future Enhancements
 ✅ **Automate asset selection using AI models** 🤖
 ✅ **Expand ESG metrics (carbon footprint, governance score)** 🌱
 ✅ **Integrate real-time market data for live tracking** 📊
