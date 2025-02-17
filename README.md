@@ -95,7 +95,7 @@ INSERT INTO asset_metadata (asset, company_name, industry) VALUES
 ---
 
 ## Step 2: Run the Python Script
-Install Dependencies**
+### Install Dependencies
 Run the following command to install necessary packages:
 ```bash
 pip install -r requirements.txt
