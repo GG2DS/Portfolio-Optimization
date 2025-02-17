@@ -107,10 +107,10 @@ python portfolio_analysis.py
 ```
 This script will:
 - Fetch stock data from Yahoo Finance
-- **Calculate log returns and portfolio volatility**
-- **Optimize portfolios based on a target return**
-- **Store results into PostgreSQL**
-- **Extract ESG scores for selected companies**
+- Calculate log returns and portfolio volatility
+- Optimize portfolios based on a target return
+- Store results into PostgreSQL
+- Extract ESG scores for selected companies
 
 ---
 
