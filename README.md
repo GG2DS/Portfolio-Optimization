@@ -140,7 +140,7 @@ After running the script, **import the SQL tables into Power BI** and create an 
   - **Bond portfolios**: ~5%
   - **Tech stocks**: ~25%-30%
 
-### *Understanding ESG Score
+### Understanding ESG Score
 - **Lower ESG score (0-20):** Negligible risk 🌱
 - **Medium ESG score (20-40):** Moderate risk ⚠️
 - **High ESG score (40+):** Significant risk 🔴
