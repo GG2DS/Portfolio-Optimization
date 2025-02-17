@@ -134,7 +134,7 @@ After running the script, **import the SQL tables into Power BI** and create an 
 ##  How to Interpret the Portfolio Volatility & ESG Score?
 
 ###  Understanding Expected Volatilit
-- A **portfolio volatility of 0.15 (15%)** means returns fluctuate **±15% annually.
+- A **portfolio volatility of 0.15 (15%)** means returns fluctuate ±15% annually.
 - Compare to benchmarks:
   - **S&P 500** volatility: ~18%
   - **Bond portfolios**: ~5%
