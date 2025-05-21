@@ -37,7 +37,7 @@ This project builds a **dynamic portfolio optimization model** that allows users
 
 ## Step 1: Setup PostgreSQL Database
 Create Database & Tables
-Run the following SQL commands to **set up the required tables:
+Run the following SQL commands to set up the required tables:
 ```sql
 CREATE DATABASE portfolio_db;
 
