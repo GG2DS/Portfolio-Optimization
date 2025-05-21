@@ -124,10 +124,16 @@ After running the script, **import the SQL tables into Power BI** and create an 
 4️ **Slicer for Selecting Portfolio Assets**
 5️ **Dynamic ESG Tooltip for Selected Assets**
 
+![image](https://github.com/user-attachments/assets/ca25f271-e09e-433b-8149-4940f81a9b2a)
+
+![image](https://github.com/user-attachments/assets/69f577cc-25e9-418b-a989-4daa8efda1b6)
+
 ### Import Data into Power BI
 - Click **Get Data** → **PostgreSQL Database**
 - Enter **Server: localhost**, **Database: portfolio_db**
 - Load tables: `simulated_portfolios`, `efficient_frontier`, `optimal_weights`, `asset_metadata`
+
+
 
 ---
 
