@@ -118,11 +118,11 @@ This script will:
 After running the script, **import the SQL tables into Power BI** and create an interactive dashboard:
 
 ### Key Visuals in Power BI
-- 1️ **Scatter Plot of Efficient Frontier** *(Risk vs. Return)*
-- 2️ **Pie Chart of Portfolio Weights** *(Asset Allocation)*
-- 3️ **KPI Cards for Expected Return, Volatility, & ESG Score**
-- 4️ **Slicer for Selecting Portfolio Assets**
-- 5️ **Dynamic ESG Tooltip for Selected Assets**
+- **Scatter Plot of Efficient Frontier** *(Risk vs. Return)*
+- **Pie Chart of Portfolio Weights** *(Asset Allocation)*
+- **KPI Cards for Expected Return, Volatility, & ESG Score**
+- **Slicer for Selecting Portfolio Assets**
+- **Dynamic ESG Tooltip for Selected Assets**
 
 
 ![image](https://github.com/user-attachments/assets/ca25f271-e09e-433b-8149-4940f81a9b2a)
